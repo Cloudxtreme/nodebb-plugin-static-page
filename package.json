@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-static-page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeBB Plugin - Generates a sample static page in HTML/CSS",
   "main": "library.js",
   "scripts": {
