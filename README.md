@@ -15,6 +15,7 @@ by Dan Jones - http://djinteractive.co.uk
 
 * Compatibility with ajaxify (instant load)
 
+## Screenshots
 
 ![NodeBB Static Page](http://i.imgur.com/ujFzIfP.png)
 
