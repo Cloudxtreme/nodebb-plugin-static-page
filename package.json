@@ -1,0 +1,35 @@
+{
+  "name": "nodebb-plugin-static-page",
+  "version": "0.0.1",
+  "description": "NodeBB Plugin - Generates a sample static page in HTML/CSS",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychobunny/nodebb-plugin-static-page"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "static",
+    "page",
+    "html"
+  ],
+  "author": {
+    "name": "psychobunny",
+    "email": "psycho.bunny@hotmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-plugin-static-page/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9"
+  },
+  "readme": "# Static Page\n\nThis NodeBB plugin allows admins to create a static page",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-static-page@0.0.1",
+  "_from": "nodebb-plugin-static-page@~0.0.1"
+}

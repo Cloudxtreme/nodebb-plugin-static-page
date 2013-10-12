@@ -1,0 +1,15 @@
+{
+	"id": "nodebb-plugin-static-page",
+	"name": "Static Page",
+	"description": "NodeBB Plugin - Creates a static page",
+	"url": "https://github.com/psychobunny/nodebb-plugin-static-page",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:header.build", "method": "addNavigation", "callbacked": false },
+		{ "hook": "filter:server.create_routes", "method": "addRoute", "callbacked": true }
+	],
+	"staticDir": "./static",
+	"css": [
+		"style.css"
+	]
+}
