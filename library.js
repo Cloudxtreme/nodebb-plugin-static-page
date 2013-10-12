@@ -1,6 +1,4 @@
-var	async = require('async'),
-	nconf = module.parent.require('nconf'),
-	fs = require('fs'),
+var	fs = require('fs'),
 	path = require('path'),
 	templates = module.parent.require('../public/src/templates.js');
 	
