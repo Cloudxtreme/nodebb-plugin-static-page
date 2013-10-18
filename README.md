@@ -20,3 +20,10 @@ by Dan Jones - http://djinteractive.co.uk
 ![NodeBB Static Page](http://i.imgur.com/ujFzIfP.png)
 
 ![NodeBB Static Page Lightbox](http://i.imgur.com/aF9u101.png)
+
+
+## About NodeBB
+
+Don't forget to [like NodeBB on Facebook](http://www.facebook.com/nodebb)!
+
+Check out the [latest NodeBB Forum Demo](http://try.nodebb.com) :)
