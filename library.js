@@ -95,24 +95,6 @@ StaticPage.addRoute = function(custom_routes, callback) {
 
 		callback(err, custom_routes);
 	});
-
-	fs.readFile(path.resolve(__dirname, './static/about.tpl'), function (err, template) {
-		var content = templates.prepare(template.toString()).parse({
-			gallery: constants.gallery
-		});
-
-		custom_routes.routes.push({
-			"route": '/about',
-			"method": "get",
-			"options": function(req, res, callback) {
-				callback({
-					content: content
-				});
-			}
-		});
-
-		callback(null, custom_routes);
-	});
 };
 
 
